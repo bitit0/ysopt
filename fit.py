@@ -7,12 +7,12 @@ from artifact import rand_artifact, MINOR_AFFIX_STAT
 
 eula_base = {
     'atk': 342+565,
-    'atkp': 0,
+    'atkp': 0.18,
     'cr': 0.05,
     'cd': 0.884,
 }
 eula_stat = {
-    'atk': eula_base['atk']+311+978.18,
+    'atk': eula_base['atk']+311,
     'atkp': eula_base['atkp']+0.466,
     'cr': eula_base['cr']+0.311,
     'cd': eula_base['cd'],
